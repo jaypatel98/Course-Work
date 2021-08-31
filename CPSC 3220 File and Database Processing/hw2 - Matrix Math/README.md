@@ -1,4 +1,4 @@
-heading Input Screen:
+Input Screen:
 <br />
 ![image](https://user-images.githubusercontent.com/35778319/131583499-0ef405f6-fc14-4671-8fb1-5c6b3395c7fc.png)
 <br />
