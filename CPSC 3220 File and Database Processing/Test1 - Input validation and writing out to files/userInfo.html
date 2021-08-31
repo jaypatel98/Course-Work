@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Add data to file</title>
+</head>
+
+
+<body>
+
+
+
+  <p>
+    <form action="updateInfo.php" method="post" autocomplete="off">
+
+
+
+      <center>
+        <h1>Add data to file</h1>
+        <table>
+
+          <tr>
+            <td>First Name</td>
+            <td> <input type="text" required name="firstName" pattern="[a-zA-Z]+"></td>
+          </tr>
+
+          <tr>
+            <td>Last Name</td>
+            <td><input type="text" maxlength="" required name="lastName" pattern="[a-zA-Z]+"></td>
+          </tr>
+
+          <tr>
+            <td>Phone Number</td>
+            <td><input type="tel" name="phoneNumber" required pattern="[\d]{3}-[\d]{3}-[\d]{4}"></td>
+            <td>
+              (Format: 123-456-7890)
+            </td>
+          </tr>
+
+          <tr>
+            <td>Email Address</td>
+            <td><input type="text" required name="emailAddress" pattern="([a-zA-Z\d]+)@([a-zA-Z]+)(\.[edu|com]{3})"></td>
+            <td>
+              (Format: x@x(.edu or .com))
+            </td>
+          </tr>
+          <tr>
+
+            <td>
+              <input type="submit" value="Give me table">
+            </td>
+            <td>
+              <center> <input type="reset" value="Reset"> </center>
+            </td>
+          </tr>
+
+        </table>
+
+      </center>
+
+
+
+
+
+
+
+    </form>
+  </p>
+
+
+
+
+
+
+</body>
+
+
+</html>
