@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(black, lemonchiffon, black) fixed;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(200px,auto);
+}
+
+.bannerbox {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  grid-column: 1/4;
+}
+
+.banner {
+  grid-row: 2/3;
+  background-image: url("Images/manson_slogan_banner.png");
+  background-repeat: no-repeat;
+}
+
+.manlypicture {
+  background-image: url("Images/outdoors.jpg");
+  grid-column: 2/4;
+  grid-row: 2/5;
+  background-repeat: no-repeat;
+}
+
+.quote1 {
+  background-color: white;
+  align-self: start;
+  border: 2px solid black;
+}
+
+.quote2 {
+  background-color: white;
+  align-self: start;
+  border: 2px solid black;
+}
+
+.productlink {
+  align-self: start;
+}
+
+#productlink {
+  color: white;
+}

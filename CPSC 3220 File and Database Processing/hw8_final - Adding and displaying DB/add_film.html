@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Add film to database</title>
+</head>
+
+
+<body>
+  <form action="add_film.php" method="post" autocomplete="off">
+
+    <center>
+      <table>
+
+        <h1>Add film to database</h1>
+
+        <tr>
+          <td>Title</td>
+          <td> <input type="text" name="title" </td> </tr> <tr>
+          <td>Description</td>
+          <td> <input type="text" name="description" </td> </tr> <tr>
+          <td>Release Year</td>
+          <td> <input type="text" name="release_year" </td> </tr> <tr>
+          <td>Language ID</td>
+          <td> <input type="text" name="language_id" </td> </tr> <tr>
+          <td>Rental Duration</td>
+          <td> <input type="text" name="rental_duration" </td> </tr> <tr>
+          <td>Rental Rate</td>
+          <td> <input type="text" name="rental_rate" </td> </tr> <tr>
+          <td>Lenth</td>
+          <td> <input type="text" name="length" </td> </tr> <tr>
+          <td>Replacement Cost</td>
+          <td> <input type="text" name="replacement_cost" </td> </tr> <tr>
+          <td class="select"> Rating</td>
+          <td> <select name="rating">
+              <option value="G">G</option>
+              <option value="PG">PG</option>
+              <option value="PG-13">PG-13</option>
+              <option value="R">R</option>
+              <option value="NC-17">NC-17</option>
+            </select>
+          </td>
+        </tr>
+
+
+
+
+        <tr>
+          <td class="select"> special_features</td>
+          <td> <select name="special_features">
+              <option value="Trailers">Trailers</option>
+              <option value="Commentaries">Commentaries</option>
+              <option value="Deleted Scenes">Deleted Scenes</option>
+              <option value="Behind the Scenes">Behind the Scenes</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+
+          <td>
+            <input type="submit" value="Save">
+          </td>
+          <td>
+            <center>
+              <a href="manager.html">
+                <input type="button" value="Cancel" />
+              </a> </center>
+          </td>
+        </tr>
+
+
+
+
+
+
+
+
+      </table>
+
+
+    </center>
+
+
+
+
+
+</body>
+
+
+</html>

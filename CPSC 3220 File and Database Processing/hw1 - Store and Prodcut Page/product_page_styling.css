@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(black, lemonchiffon 20% 80%, black) fixed;
+}
+
+h1 {
+  text-align: center;
+  color: lemonchiffon;
+}
